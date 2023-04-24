@@ -9,9 +9,9 @@ setup(name='aeropython',
       author='leal26',
       author_email='leal26@tamu.edu',
       license='MIT',
-      packages=['aeropy', 'aeropy.CST_2D', 'aeropy.CST_3D',
-                'aeropy.morphing', 'aeropy.geometry',
-                'aeropy.filehandling', 'aeropy.structural'],
+      packages=['aeropython', 'aeropython.CST_2D', 'aeropython.CST_3D',
+                'aeropython.morphing', 'aeropython.geometry',
+                'aeropython.filehandling', 'aeropython.structural'],
       zip_safe=False,
           package_data={
           # If any package contains *.exe and avian files, include them:
