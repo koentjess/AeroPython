@@ -5,7 +5,7 @@ from setuptools import setup, find_packages
 setup(name='aeropython',
       version='0.1',
       description='An easy to use aerodynamic tool.',
-      url='NA',
+      url='https://github.com/koentjess/AeroPython',
       author='leal26',
       author_email='leal26@tamu.edu',
       license='MIT',
