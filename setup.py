@@ -1,9 +1,9 @@
-"""AeroPy: An easy to use aerodynamic tool."""
+"""AeroPython: An easy to use aerodynamic tool."""
 
 from setuptools import setup, find_packages
 
-setup(name='aeropy',
-      version='0.0',
+setup(name='aeropython',
+      version='0.1',
       description='An easy to use aerodynamic tool.',
       url='NA',
       author='leal26',
