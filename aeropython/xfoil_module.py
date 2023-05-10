@@ -334,14 +334,9 @@ def call(airfoil, alfas=None, output='Cp', Reynolds=0, Mach=0,  # noqa C901
 
         # For several angles of attack
         if Multiple is True:
-            if output == "Polar":
-                issueCmd('aseq')
-                issueCmd('{}'.format(min(alfas)))
-                issueCmd('{}'.format(max(alfas)))
-                issueCmd('{}'.format(alfas[1]-alfas[0]))
-            else:
-                for alfa in alfas:
-                    submit(output, alfa)
+            for alfa in alfas:
+                submit(output, alfa)
+
 
         # For only one angle of attack
         if Multiple is False:
