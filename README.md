@@ -12,7 +12,7 @@ AeroPy is an library for calculating aerodynamic properties. The main feature of
 
 # Installation from github
 - Clone via GitHub
-- Open command line in aeropy directory
+- Open command line in aeropython directory
 - Run 'pip install .\'
 
 # Dependencies
